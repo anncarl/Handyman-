@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins' ,sans-serif;
+    background-color: #f1f1f1;
+}
+
+.header-fixed{
+    height: 500px;
+    overflow: auto;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+.header-fixed thead th{
+    position: sticky;
+    top: 8;
+    background-color: #02193c;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+tr:nth-child(even){
+    background-color: #123;
+}
+tr:nth-child(odd){
+    background-color: yellow;
+}
+tr:hover td{
+    color: #2a4164;
+    cursor: pointer;
+    background-color: #ffff;
+}
+td button{
+    border: none;
+    border-radius: 20px;
+    padding: 7px 20px;
+    background: #02193c;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+/*::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+}*/
+
